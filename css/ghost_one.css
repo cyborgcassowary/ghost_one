@@ -1,0 +1,315 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: left top;
+    color: #ddd;
+    background-color: #000000;
+	font-family: 'Oswald', sans-serif;
+  line-height:180%;
+  margin-bottom: 455px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { border: none; }
+.yellowlinetop{border-top:#eed535 solid 3px; padding-top: 35px;}
+.fontsizeLG{font-size:180%; line-height: 210%;}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.text-muted{ color:#eee;}
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  border-bottom:#666 solid 3px;
+  background:#221E1F;
+}
+.clear{clear:both; height: 35px; /*border:1px solid #f00*/;}
+
+.headline{border-bottom:7px solid #221d1f; padding-bottom:8px; color:#ddd;}
+
+.tab-content>.tab-pane{margin-top:15px;}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.prefix{
+  margin-top:68px;
+  padding-top:10px;
+}
+
+.padtop{
+  margin-top:35px;
+}
+
+.navbar-inverse {border:none; background:transparent;}
+
+.navbar-brand{height: 68px; padding:0;}
+
+.nav>li>a{ }
+
+  .navbar-toggle{margin-top:25px;}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+#events{margin-top:0px; padding-top: 50px;}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 65px;
+  padding-left: 65px;
+  /*padding:30px 65px 10px 65px;*/
+}
+
+.marketing_interior {
+  max-width:762px;
+  padding:30px 35px 30px 35px;
+  
+}
+
+.headline_2{padding:0; margin:0;}
+
+.fontlarge{font-size:130%;
+  line-height: 250%;}
+
+.headline_noline{font-size:180%;}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+	margin-bottom: 50px;
+	text-align: center; float:left; 
+}
+.marketing h2 {
+  font-weight: normal;
+  line-height: 1.2em;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 0 0 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette{
+	margin:0 -14px;
+}
+
+#homeslide{background: url(../images/bg_body_sm.png) right bottom no-repeat; background-size:450px 357px;  display:block; margin-top:90px; padding:20px 10px 20px 0px; }
+#homeslide .col-md-7{ width: 100%; border: #FCF505 8px solid; margin: 0px 0; padding: 35px; min-height:450px;	}
+#homeslide .col-md-12{ width: 100%; border: #FCF505 8px solid; margin: 0px 0; padding: 35px; min-height:450px; }
+
+.arrow{background:url(../images/downward_arrow.png) no-repeat center top; height: 30px; width: 100%; position:absolute; bottom:-30px; display:none;}
+#aboutnav{background:#ffeb00; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px; margin-bottom:40px;  margin:0 auto; font-size:90%;}
+
+#aboutnav>li.active>a{background-color: #ffeb00; position: relative; color:#fff;}
+#aboutnav>li>a:hover div.arrow{}
+#aboutnav>li>a{color:#222; text-transform: uppercase;}
+#aboutnav>li>a:hover{background-color:#ffeb00; color:#fff;}
+.staffinfo{padding-top:15px;}
+
+.panel {background:transparent;}
+
+#footer{padding: 0 0 0 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 453px;
+  background: #221d1f;
+  border-top:2px solid #666;
+
+}
+
+#footer #left{
+  height:453px;
+  background:url(../images/footer_logo.png) no-repeat left bottom;
+  position:relative;
+
+}
+#footer .copyright{ position: absolute; left:0; bottom:60px; font-size:13px; color: #eed535;}
+#footer #right{height:453px; background: url(../images/quotes.png) no-repeat 40px 90px; text-align: right; color:#eed535; font-size:26px; line-height: 160%;}
+.footerblockquote{padding-top:120px;
+float:right;
+width:80%
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+/* For todo list*/
+.done-true{color:#777; text-decoration: line-through;}
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #aboutnav>li.active>a .arrow{background:url(../images/downward_arrow.png) no-repeat center top; height: 30px; width: 90%; position:absolute; bottom:-30px; display:block;}
+  #aboutnav>li>a:hover{color:#000;}
+
+  .prefix{margin-top:120px;}
+
+  .navbar-toggle{margin-top:35px;}
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+	/* [disabled]margin-top: 20px; */
+	background-color: #221E1F;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+  .navbar-brand{height: 120px; padding:15px 0;}
+
+  /* The navbar becomes detached from the top, so we round the corners */
+/*  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }*/
+#events{margin-top:0px; padding-top:50px;}
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  
+  .featurette{
+	 width:500px; margin-top: 220px; padding: 10px 0 0 0;
+	  }
+  
+  .marketing .col-lg-4 {
+	  width:33.33%;
+  }
+  #homeslide{ min-width:700px; background-size:700px 555px; background-position: right -40px; margin-top: 143px; padding: 20px 10px;}
+  #homeslide .col-md-7{ width: 90%; min-width: 700px; margin:65px 0;}
+  #homeslide .col-md-12{  min-width: 700px; margin:65px 0;}
+
+  .featurette-divider {
+ /* margin: 140px 0 140px 0;  Space out the Bootstrap <hr> more */  
+}
+.text-muted{font-size:49px;}
+#events{width:90%;}
+  #inthenow{ width:90%;}
+
+
+.tab-content>.tab-pane{min-width:600px;}
+
+
+
+/* Fix for nav-justified bug found in all webkit browsers and not just safari */
+.nav-pills.nav-justified > li {
+        display: block;
+        float: left;
+        width: 24%;
+        font-size:13px;
+    }
+#aboutnav>li.active>a{ color:#000;}
+
+}
+
+@media (min-width: 992px) {
+  .marketing_interior {
+  max-width:762px;
+  padding:30px 65px 30px 65px;
+  
+}
+.staffinfo{padding-top:0px;}
+ #aboutnav>li.active>a{ color:#000;}
+ .nav{margin-top:30px;}
+
+  .featurette-heading {
+    
+  }
+
+  #events{padding-top:50px;}
+  .featurette{
+	 width:100%; 
+   margin-top: 0px;
+   padding: 60px 0 0 0;
+	  }
+  #homeslide .col-md-7{  width: 58.33333333%; margin:65px 0;}
+  #homeslide .col-md-12{ min-width:952px;  margin:65px 0;}
+
+  #events{padding-top:0; max-width:320px; margin-right:10px;}
+  #inthenow{max-width:490px; margin-left:50px;}
+
+  .tab-content>.tab-pane{min-width:800px;}
+
+}
+
+@media (min-width: 1200px) {
+  #events{padding-top:0; max-width:320px; margin-right:0px;}
+  #inthenow{max-width:490px; margin-left:50px;}
+}
