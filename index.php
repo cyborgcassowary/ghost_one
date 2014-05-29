@@ -55,13 +55,13 @@ header("Pragma: no-cache");
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/html/evidence.php">EVIDENCE</a></li>
-                <li><a href="/html/calendar.php">CALENDAR</a></li>
-                <li><a href="/html/about.php">ABOUT</a></li>
-                <li><a href="/html/hire_us.php">HIRE US?</a></li>
-                <li><a href="/html/store.php">STORE</a></li>
-                <li><a href="/html/fundraising.php">FUNDRAISING</a></li>
-                <li><a href="/html/reach_out.php">REACH OUT</a></li>
+                <li><a href="html/evidence.php">EVIDENCE</a></li>
+                <li><a href="html/calendar.php">CALENDAR</a></li>
+                <li><a href="html/about.php">ABOUT</a></li>
+                <li><a href="html/hire_us.php">HIRE US?</a></li>
+                <li><a href="html/store.php">STORE</a></li>
+                <li><a href="html/fundraising.php">FUNDRAISING</a></li>
+                <li><a href="html/reach_out.php">REACH OUT</a></li>
               </ul>
             </div>
           </div>
@@ -110,7 +110,7 @@ June 13 @ 8:00pm</p><br>
 June 13 @ 8:00pm</p>
 <br>
 <br>
-<p><a class="btn btn-default" href="/html/calendar.php" role="button">ALL EVENTS</a></p>
+<p><a class="btn btn-default" href="html/calendar.php" role="button">ALL EVENTS</a></p>
         </div>
        
        <div class="clear"></div>
