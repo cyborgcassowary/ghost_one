@@ -85,13 +85,13 @@ header("Pragma: no-cache");
     <div class="marketing_interior fontlarge">
 
 
-<h1 class="headline_noline">ABOUT GHOST-ONE</h1>
+<h1 class="headline_noline">EVIDENCE</h1>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneca diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.
 
     </div>
 
-    <!-- Marketing messaging and featurettes
+    <?php /*?><!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
@@ -205,7 +205,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Doneca diam lectus. Sed
 <br>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
 
-</div><div class="clear"></div></div>
+</div><div class="clear"></div><?php */?></div>
 
 
     </section>

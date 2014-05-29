@@ -17,7 +17,7 @@ header("Pragma: no-cache");
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet" type="text/css">
     
     
 
@@ -55,13 +55,13 @@ header("Pragma: no-cache");
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Evidence</a></li>
-                <li><a href="#about">Calendar</a></li>
-                <li><a href="#contact">ABOUT</a></li>
-                <li><a href="#contact">HIRE US?</a></li>
-                <li><a href="#contact">STORE</a></li>
-                <li><a href="#">Fundraising </a></li>
-                <li><a href="#">Reach Out</a></li>
+                <li><a href="/html/evidence.php">EVIDENCE</a></li>
+                <li><a href="/html/calendar.php">CALENDAR</a></li>
+                <li><a href="/html/about.php">ABOUT</a></li>
+                <li><a href="/html/hire_us.php">HIRE US?</a></li>
+                <li><a href="/html/store.php">STORE</a></li>
+                <li><a href="/html/fundraising.php">FUNDRAISING</a></li>
+                <li><a href="/html/reach_out.php">REACH OUT</a></li>
               </ul>
             </div>
           </div>
@@ -85,23 +85,38 @@ header("Pragma: no-cache");
       </div>
    
       <div class="row">
-        <div class="col-md-7 col-md-offset-1" id="inthenow">
-          <h1 class="headline">In The Now.</h1>
-          <h2>Heading</h2>
+        <div class="col-md-7" id="inthenow">
+          <h1 class="headline">IN THE NOW.</h1><br>
+          <strong>May 22 @ 2:00pm</strong>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+          <br><br>
+          <strong>May 22 @ 12:00pm</strong>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <br><br>
+          <strong>May 22 @ 10:00pm</strong>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          
         </div>
-        <div class="col-md-3 " id="events">
-         <h1 class="headline">Events.</h1>
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        <div class="col-md-3   col-md-offset-1" id="events">
+         <h1 class="headline">EVENTS.</h1><br>
+          <p><strong>Physick Estate</strong><br>
+June 13 @ 8:00pm</p>
+          <br>
+          <p><strong>Physick Estate</strong><br>
+June 13 @ 8:00pm</p><br>
+<p><strong>Physick Estate</strong><br>
+June 13 @ 8:00pm</p><br>
+<p><strong>Physick Estate</strong><br>
+June 13 @ 8:00pm</p>
+<br>
+<br>
+<p><a class="btn btn-default" href="/html/calendar.php" role="button">ALL EVENTS</a></p>
         </div>
        
        <div class="clear"></div>
       </div>
 
-
+ 
     </div><!-- /.container -->
 
 <footer id="footer">
@@ -113,7 +128,7 @@ header("Pragma: no-cache");
 <div class="footerblockquote">
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae ligula non risus fringilla gravida."
 </div> 
-        </div>
+        </div> 
   </div>
 </footer>
 <?php /*   <!-- Bootstrap core JavaScript
